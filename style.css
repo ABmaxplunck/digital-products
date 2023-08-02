@@ -55,6 +55,9 @@
     color: white;
     background-image: url("./images/background.png"),
     linear-gradient(45deg, #000, #1c1b1b);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     
 }
 
@@ -76,5 +79,24 @@
     background-color: red;
     color: white;
     border: none;
+    cursor: pointer;
 
+}
+
+.btn:hover{
+    color: yellow;
+}
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+
+
+.about-title{
+    text-align: center;
+    padding-top: 20px;
 }
