@@ -141,7 +141,10 @@
 
 
 .footer{
+    font-size: medium;
     text-align: center;
     background-color: yellow;
-    padding:15px
+    padding:25px;
+    
+    
 }
