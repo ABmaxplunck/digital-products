@@ -136,4 +136,12 @@
     justify-content: space-around;
     padding: 20px;
     background-color: rgb(17, 15, 15);
+    margin-bottom: 15px;
+}
+
+
+.footer{
+    text-align: center;
+    background-color: yellow;
+    padding:15px
 }
